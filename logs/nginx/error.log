@@ -1,0 +1,1 @@
+2021/10/19 17:52:16 [error] 9040#27168: *4941 directory index of "C:/Users/kevin/Local Sites/estore/app/public/wp-content/cache/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/cache/ HTTP/1.0", host: "estore.local", referrer: "http://estore.local/wp-content/cache/"
