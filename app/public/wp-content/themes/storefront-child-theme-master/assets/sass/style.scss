@@ -23,3 +23,9 @@ Images License: GNU General Public License v2 or later
 /*
  * Add your own custom css below this text.
  */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+$fontStack :'Poppins', sans-serif;
+
+*{
+  font-family: $fontStack;
+}
