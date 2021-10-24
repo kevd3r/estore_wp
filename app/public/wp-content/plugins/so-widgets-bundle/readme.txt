@@ -3,8 +3,8 @@ Tags: widget, button, slider, hero, google maps, image, carousel, features, icon
 Requires at least: 4.2
 Tested up to: 5.8
 Requires PHP: 5.6.20
-Stable tag: 1.24.0
-Build time: 2021-10-08T22:31:46+02:00
+Stable tag: 1.25.0
+Build time: 2021-10-21T21:08:23+02:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -99,6 +99,17 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.25.0 - 21 October 2021 =
+* Features: Added a `Link feature column to more URL` setting.
+* Hero and Layout Slider: Moved Layout settings to dedicated section.
+* Hero and Layout Slider: Added padding responsive settings.
+* Image: Added a `Rel` field. The rel attribute specifies the relationship between the current document and the linked document.
+* Image Grid: Added a `Custom Size` option to the `Image size` setting.
+* Post Carousel: Prevented potential overflow on load.
+* Post and Anything Carousel: Changed `Display navigation` label to `Display navigation arrows`.
+* Sliders: Added an `Unmute icon` and `Unmute icon position` for background videos.
+* Developer: Added multiple media repeater support.
 
 = 1.24.0 - 08 October 2021 =
 * Anything Carousel: Set wrapper to full-width to avoid a potential sizing issue.

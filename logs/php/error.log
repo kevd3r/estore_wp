@@ -1,0 +1,31 @@
+[22-Oct-2021 15:35:10 UTC] PHP Warning:  fopen(C:\Users\kevin\Local Sites\estore\app\public/wp-content/themes/storefront-child-theme-master/style.css): failed to open stream: Permission denied in C:\Users\kevin\Local Sites\estore\app\public\wp-includes\functions.php on line 6461
+[22-Oct-2021 15:35:10 UTC] PHP Stack trace:
+[22-Oct-2021 15:35:10 UTC] PHP   1. {main}() C:\Users\kevin\Local Sites\estore\app\public\index.php:0
+[22-Oct-2021 15:35:10 UTC] PHP   2. require() C:\Users\kevin\Local Sites\estore\app\public\index.php:17
+[22-Oct-2021 15:35:10 UTC] PHP   3. require_once() C:\Users\kevin\Local Sites\estore\app\public\wp-blog-header.php:19
+[22-Oct-2021 15:35:10 UTC] PHP   4. get_front_page_template() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\template-loader.php:81
+[22-Oct-2021 15:35:10 UTC] PHP   5. get_query_template() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\template.php:416
+[22-Oct-2021 15:35:10 UTC] PHP   6. locate_block_template() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\template.php:66
+[22-Oct-2021 15:35:10 UTC] PHP   7. resolve_block_template() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\block-template.php:48
+[22-Oct-2021 15:35:10 UTC] PHP   8. wp_get_theme() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\block-template.php:116
+[22-Oct-2021 15:35:10 UTC] PHP   9. WP_Theme->__construct() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\theme.php:131
+[22-Oct-2021 15:35:10 UTC] PHP  10. get_file_data() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\class-wp-theme.php:277
+[22-Oct-2021 15:35:10 UTC] PHP  11. fopen() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\functions.php:6461
+[24-Oct-2021 14:36:46 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'storefront_enqueue_styles' not found or invalid function name in C:\Users\kevin\Local Sites\estore\app\public\wp-includes\class-wp-hook.php on line 303
+[24-Oct-2021 14:36:46 UTC] PHP Stack trace:
+[24-Oct-2021 14:36:46 UTC] PHP   1. {main}() C:\Users\kevin\Local Sites\estore\app\public\index.php:0
+[24-Oct-2021 14:36:46 UTC] PHP   2. require() C:\Users\kevin\Local Sites\estore\app\public\index.php:17
+[24-Oct-2021 14:36:46 UTC] PHP   3. require_once() C:\Users\kevin\Local Sites\estore\app\public\wp-blog-header.php:19
+[24-Oct-2021 14:36:46 UTC] PHP   4. include() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\template-loader.php:106
+[24-Oct-2021 14:36:46 UTC] PHP   5. get_header() C:\Users\kevin\Local Sites\estore\app\public\wp-content\themes\storefront\template-homepage.php:15
+[24-Oct-2021 14:36:46 UTC] PHP   6. locate_template() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\general-template.php:48
+[24-Oct-2021 14:36:46 UTC] PHP   7. load_template() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\template.php:716
+[24-Oct-2021 14:36:46 UTC] PHP   8. require_once() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\template.php:770
+[24-Oct-2021 14:36:46 UTC] PHP   9. wp_head() C:\Users\kevin\Local Sites\estore\app\public\wp-content\themes\storefront-child-theme-master\header.php:18
+[24-Oct-2021 14:36:46 UTC] PHP  10. do_action() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\general-template.php:3015
+[24-Oct-2021 14:36:46 UTC] PHP  11. WP_Hook->do_action() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\plugin.php:470
+[24-Oct-2021 14:36:46 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\class-wp-hook.php:327
+[24-Oct-2021 14:36:46 UTC] PHP  13. wp_enqueue_scripts() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\class-wp-hook.php:303
+[24-Oct-2021 14:36:46 UTC] PHP  14. do_action() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\script-loader.php:2083
+[24-Oct-2021 14:36:46 UTC] PHP  15. WP_Hook->do_action() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\plugin.php:470
+[24-Oct-2021 14:36:46 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\kevin\Local Sites\estore\app\public\wp-includes\class-wp-hook.php:327

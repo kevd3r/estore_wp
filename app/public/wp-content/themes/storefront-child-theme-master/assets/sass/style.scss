@@ -1,6 +1,6 @@
 /*
 Theme Name:     Storefront Child Theme
-Theme URI:      https://github.com/stuartduff/storefront-child-theme
+Theme URI:      https://github.com/stuartduff/storefront-child-theme-master
 Author:         Stuart Duff
 Author URI:     http://stuartduff.com
 Template:     	storefront
@@ -23,9 +23,54 @@ Images License: GNU General Public License v2 or later
 /*
  * Add your own custom css below this text.
  */
- @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
-$fontStack :'Poppins', sans-serif;
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$base-red-color:#FF0000;
+$base-color-yellow:#FBB03B;
+$base-color-grey:#CECECE;
+$font-stack: 'Poppins',sans-serif;
+$media-small-screen:"@media screen and (max-width:468px)";
+$media-large-screen:"@media screen and (min-width : 768px)";
+$media-laptop:"@media screen and (min-width : 1024px)";
+$margin-left:"margin-left";
+$margin-right:"margin-right";
+$margin-top:"margin-top";
+$margin-bottom:"margin-bottom";
+$margin-left-right:($margin-left,$margin-right);
+$margin:($margin-left,$margin-right,$margin-top,$margin-bottom);
+
+
+@mixin frontpage-text(){
+  color: white;
+  font-weight: bold;
+}
 
 *{
-  font-family: $fontStack;
+  font-family: $font-stack;
+}
+
+#masthead{
+  display: flex;
+  >.col-full{
+    display: flex;
+    .site-branding{
+      display: flex;
+      .custom-link-logo{
+        >img{
+          width: 5vh;
+          @include frontpage-text();
+        }
+      }
+    }
+  }
+}
+
+
+
+.wp-block-nextend-smartslider{
+  $media-small-screen:false;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
 }

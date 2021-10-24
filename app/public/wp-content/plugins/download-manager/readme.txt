@@ -181,6 +181,9 @@ Check download stats and get a push notification when someone downloads, install
 
 == Changelog ==
 
+= 3.2.19 - 2021.10.21 =
+* Fixed an issue with cache storage setting
+
 = 3.2.18 - 2021.10.06 =
 * Remove `mbstring` dependency
 

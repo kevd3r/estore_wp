@@ -371,7 +371,9 @@ class Settings
             update_option('__wpdm_delstats_on_udel', wpdm_query_var('__wpdm_delstats_on_udel', 'int', 0));
             update_option('__wpdm_checkout_privacy', wpdm_query_var('__wpdm_checkout_privacy', 'int', 0));
             update_option('__wpdm_checkout_privacy_label', wpdm_query_var('__wpdm_checkout_privacy_label', 'txt'));
-            _e("Privacy Settings Saved Successfully", "download-manager");
+	        update_option('__wpdm_tmp_storage', wpdm_query_var('__wpdm_tmp_storage', 'txt', 'db'));
+	        update_option('__wpdm_auto_clean_cache', wpdm_query_var('__wpdm_auto_clean_cache', 'int', 0));
+	        _e("Privacy Settings Saved Successfully", "download-manager");
             die();
         }
         include wpdm_admin_tpl_path("settings/privacy.php");
